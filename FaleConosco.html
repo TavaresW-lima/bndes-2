@@ -28,20 +28,20 @@
 <body>
     <div class="main">
      <div class="formWrapper">
-        <form method= "post" action="dbUsuario/validarCadastroUsuario.php">
+        <form name="formContato" method= "post" action="enviaEmail.php">
             <h1>Fale Conosco</h1>
             <label for="contatoNomee">Nome</label>
-            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <input class="inputDefault" type="text" id="nome" name="nome" require="required">
             <label for="contatoEmail">Email</label>
-            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <input class="inputDefault" type="text" id="email" name="email" require="required">
             <label for="contatoAssunto">Assunto</label>
-            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <input class="inputDefault" type="text" id="assunto" name="assunto" require="required">
             <label for="empresaNome">Insira o  email</label>
-            <textarea rows="10" cols="40" maxlength="500"></textarea>
-            <p></p>
-            <label for="empresaNome">Numero: (99) 99999-9999</label>
-            <label for="empresaNome">Numero: (99) 99999-9999</label>
-            <a href="index" class="button btn_green">Voltar</a>
+            <textarea name="mensagem" id="mensagem" rows="10" cols="40" maxlength="500"></textarea>
+            <div class="botoesForm">
+                <input type="submit" class="button btn_green" value="Enviar">
+                <a href="index" class="button btn_green">Voltar</a>
+            </div>
         </form>
      </div>
     </div>

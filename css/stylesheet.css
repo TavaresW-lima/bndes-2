@@ -25,9 +25,9 @@ header{
 }
 
 .menuItem{
-    margin-right:35px;
+    margin-right:15px;
     margin-top:15px;
-    font-size:1.2em;
+    font-size:1.1em;
     font-weight: bold;
     box-sizing:border-box;
     transition: border .2s ease-out;
@@ -53,7 +53,7 @@ nav{
     justify-content: flex-end;
     padding: 0 15px;
     list-style-type: none;
-    margin:0 50px;
+    margin:0px;
 }
 
 header img{
@@ -233,24 +233,35 @@ header h2{
     background:#423E3B;
 }
 
-.cardWrapper{
-    margin-bottom: 20px;
-}
-
-.cycleWrapper{
+.bndesWrapper{
     height:auto;
-    padding:25px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    background:#1d318d;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box;
 }
 
-.cycleWrapper h2{
-    font-size:2em;
-    margin-left:80px;
-    margin-bottom:20px;
+.bndesWrapper .contentWrapper{
+    width:40%;
 }
 
-.cycleWrapper img{
+.bndesWrapper .contentWrapper h2{
+    font-size:2.4em;
+}
+
+.bndesWrapper .contentWrapper p{
+    font-size:1.3em;
+    line-height: 1.5;
+}
+
+.bndesWrapper img{
     display:block;
-    margin: 0 auto;
+    height:250px;
 }
 
 .endWrapper{
