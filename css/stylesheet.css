@@ -169,7 +169,7 @@ header h2{
     flex-direction:row;
     flex-flow: wrap;
     align-items:center;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .card{
@@ -231,6 +231,61 @@ header h2{
     border:5px solid #2dbfe2;
     box-sizing:border-box;
     background:#423E3B;
+}
+
+.missionWrapper{
+    box-sizing:border-box;
+    width:100%;
+    height:auto;
+    padding: 35px 0 35px 80px;
+    background:#423E3B;
+    color:#fff;
+}
+
+.missionWrapper .texto{
+    line-height:1.5;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width:80%;
+    margin-top: 25px;
+    font-size:1.5em;
+}
+
+.texto p{
+    margin-top:15px;
+}
+
+.texto p strong:first-child{
+    color:#a1ea77;
+}
+
+.texto p strong:last-child{
+    color:#F29164;
+}
+
+.missionWrapper .btn{
+    width:100%;
+    height:auto;
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.missionWrapper .button{
+    margin-right:80px;
+}
+
+.missionWrapper .button:hover{
+    color:#fff;
+}
+
+
+.missionWrapper h2{
+    font-size:3em;
 }
 
 .bndesWrapper{
