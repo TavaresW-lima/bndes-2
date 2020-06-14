@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>RecyBem</title>
+    <style>
+        .formWrapper textarea{
+            margin:15px 0 20px 0;
+            outline:none;
+            border:1px solid transparent;
+            background: #f0f0f0;
+            width:100%;
+            height:auto;
+            border-radius:25px;
+            padding:20px 25px;
+            box-sizing:border-box;
+            font-size:1.2em;
+            color: #423E3B;
+            resize:none;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+     <div class="formWrapper">
+        <form method= "post" action="dbUsuario/validarCadastroUsuario.php">
+            <h1>Fale Conosco</h1>
+            <label for="contatoNomee">Nome</label>
+            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <label for="contatoEmail">Email</label>
+            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <label for="contatoAssunto">Assunto</label>
+            <input class="inputDefault" type="text" id="empresaNome" name="empresaNome" require="required">
+            <label for="empresaNome">Insira o  email</label>
+            <textarea rows="10" cols="40" maxlength="500"></textarea>
+            <p></p>
+            <label for="empresaNome">Numero: (99) 99999-9999</label>
+            <label for="empresaNome">Numero: (99) 99999-9999</label>
+            <a href="index" class="button btn_green">Voltar</a>
+        </form>
+     </div>
+    </div>
+</body>
+</html>
