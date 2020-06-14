@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="css/signup.css">
     <title>RecyBem</title>
     <style>
+        
+        body{
+            font-size:16px;
+                
+        }
+        
         .formWrapper{
             margin-top:100px;
+        }
+        
+        h1:nth-child(2){
+            font-size:1.2em;
+        }
+        
+        .texto{
+            padding:0 10px;
+            margin-bottom:25px;
+        }
+        
+        .texto p{
+            line-height: 1.5;
+            text-align:justify;
+            font-size:1.2em;
+            
         }
     
     
@@ -20,10 +42,11 @@
      <div class="formWrapper">
         <form method= "post" action="dbUsuario/validarCadastroUsuario.php">
             <h1>Bem Vindo ao RecyBem</h1>
-            <label for="">Sua Plataforma de reciclagem</label>
-            <label for=""><p>NA Recybem é uma empresa  de software que viu na reciclagem a oportunidade de fazer diferente!</p></label>
-                <label for=""><p>Nosso software que da nome a empresa, não so vai revolucionar a maneira como as comunidades enxergavam seu proprio lixo, 
-                        como tem por objetivo melhorar a qualidade de vida das pessoas, gerar empregos e promover um trabalho de parceria entre empresas de todo tipo em prol de um bem maior</p></label>
+            <h1>Sua Plataforma de reciclagem</h1>
+            <div class="texto">
+            <p>A Recybem é uma empresa  de software que viu na reciclagem a oportunidade de fazer diferente!
+            Nosso software que da nome a empresa, não so vai revolucionar a maneira como as comunidades enxergavam seu proprio lixo, como tem por objetivo melhorar a qualidade de vida das pessoas, gerar empregos e promover um trabalho de parceria entre empresas de todo tipo em prol de um bem maior</p>
+            </div>
             <a href="index.html" class="button btn_green">Voltar</a>
         </form>
      </div>
