@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+     <div class="formWrapper">
+        <form method= "post" action="dbUsuario/validarCadastroUsuario.php">
+             <h1>Página de cadastro do usuário</h1>
+            <label for="firstName">Primeiro nome:</label>
+            <input class="inputDefault" type="text" id="fristName" name="firstName" require="required">
+            <label for="lastName">Último nome:</label>
+            <input class="inputDefault" type="text" id="lastName" name="lastName" require="required">
+            <label for="cpf">CPF:</label>
+            <input class="inputDefault" type="text" id="cpf" name="cpf">
+            <label for="cep">CEP:</label>
+            <input class="inputDefault" type="text" id="cep" name="cep">
+            <label for="email">Email:</label>
+            <input class="inputDefault" type="text" id="email" name="email" require="required">
+            <label for="passWord">Senha:</label>
+            <input class="inputDefault" type="text" id="passWord" name="passWord" require="required">
+            <input class="button btn_green"type="submit" value="Fazer cadastro de usuario">
+          </form>
+     </div>
+    </div>
+</body>
+</html>
