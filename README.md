@@ -1,2 +1,2 @@
 # bndes
-Adiantamento dos possíveis arquivos.
+Repositório Front-End para processo seletivo do BNDES
